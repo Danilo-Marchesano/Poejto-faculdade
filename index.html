@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Pessoal - Danilo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho com menu de navegação -->
+  <header>
+    <div class="container">
+      <h1>Danilo de Souza Marchesano</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="#sobre">Sobre Mim</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Seção Sobre Mim -->
+  <section id="sobre" class="secao">
+    <div class="container">
+      <h2>Sobre Mim</h2>
+      <p>
+        Olá! Meu nome é Danilo de Souza Marchesano. Sou uma pessoa interessada em tecnologia
+        e estou estudando desenvolvimento web, principalmente FastAPI. Gosto de aprender coisas novas,
+        melhorar minhas habilidades e construir projetos simples e funcionais.
+      </p>
+      <p>
+        No meu tempo livre, gosto de ouvir música, assistir séries, Animes e buscar
+        conhecimento na área de programação.
+      </p>
+    </div>
+  </section>
+
+  <!-- Seção Formação -->
+  <section id="formacao" class="secao destaque">
+    <div class="container">
+      <h2>Formação</h2>
+      <ul>
+        <li>Curso superior em andamento na área de tecnologia</li>
+        <li>Estudos em HTML, CSS, JavaScript, FastAPI, Python, SQL</li>
+        <li>Conhecimentos básicos em lógica de programação</li>
+        <li>Idioma: Português nativo</li>
+        <li>Idioma: Inglês básico/intermediário</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Seção Portfólio -->
+  <section id="portfolio" class="secao">
+    <div class="container">
+      <h2>Portfólio</h2>
+
+      <div class="card">
+        <h3>Projeto 1 - Página de Apresentação</h3>
+        <p>Projeto simples feito com HTML e CSS para treinar estrutura e estilização.</p>
+        <a href="#" target="_blank">Ver projeto</a>
+      </div>
+
+      <div class="card">
+        <h3>Projeto 2 - Exercícios de JavaScript</h3>
+        <p>Pequenos exercícios para praticar variáveis, funções e eventos no navegador.</p>
+        <a href="#" target="_blank">Ver projeto</a>
+      </div>
+
+      <div class="card">
+        <h3>Projeto 3 - Portfólio Pessoal</h3>
+        <p>Este site foi desenvolvido como atividade prática da disciplina.</p>
+        <a href="#" target="_blank">Ver projeto</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contato" class="secao destaque">
+    <div class="container">
+      <h2>Contato</h2>
+
+      <form id="formContato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email">
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <p id="mensagemStatus"></p>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 - Danilo de Souza Marchesano. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
